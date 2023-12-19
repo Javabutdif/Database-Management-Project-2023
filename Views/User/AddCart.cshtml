@@ -1,0 +1,75 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<h1 class="text-white">Add Cart</h1>
+<br />
+<br />
+<br />
+
+<body style="text-align:center; color: white">
+
+<form method="post" asp-controller="User" asp-action="AddCartAction" >
+
+
+        <input type="hidden" name="id" value="@ViewBag.id" />
+        <input type="hidden" name="itemid" value="@ViewBag.itemId" />
+
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Name</label>
+        <div class="col-sm-6">
+                <h3 class="form-control"  style="background-color:white">@ViewBag.name</h3>
+                <input type="hidden" name="name" value="@ViewBag.name" />
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Item Title</label>
+        <div class="col-sm-6">
+                <h3 class="form-control" style="background-color:white">@ViewBag.title</h3>
+                <input type="hidden" name="title" value="@ViewBag.title" />
+        </div>
+    </div>
+        <div class="row mb-3">
+            <label class="col-sm-3 col-form-label">Type</label>
+            <div class="col-sm-6">
+                <h3 class="form-control" style="background-color:white">@ViewBag.type</h3>
+                <input type="hidden" name="type" value="@ViewBag.type" />
+            </div>
+        </div>
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Item ISBN</label>
+        <div class="col-sm-6">
+                <h3 class="form-control"  style="background-color:white">@ViewBag.isbn</h3>
+                <input type="hidden" name="isbn" value="@ViewBag.isbn" />
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Item Price</label>
+        <div class="col-sm-6">
+                <h3 class="form-control"  style="background-color:white">@ViewBag.price</h3>
+                <input type="hidden" name="price" value="@ViewBag.price" />
+            </div>
+    </div>
+        
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Quantity</label>
+        <div class="col-sm-6">
+            <input type="number" class="form-control" name="quantity">
+        </div>
+    </div>
+   
+    <div class="row mb-3">
+
+        <div class="offset-sm-3 col-sm-3 d-grid">
+                <button type="submit" class="btn btn-primary" >Add to Cart</button>
+        </div>
+
+        <div class=" col-sm-3 d-grid">
+            <a class="btn btn-danger" asp-controller="User" asp-action="Shop" asp-route-id="@ViewBag.id" role="button">Cancel</a>
+        </div>
+    </div>
+
+   
+</form>
+</body>

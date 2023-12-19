@@ -1,0 +1,58 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+
+<form asp-controller="Admin" asp-action="EditItemsAction" method="POST" style="color:white">
+    <input type="hidden" name="id" value="@ViewBag.id">
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">ISBN</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="isbn" value="@ViewBag.isbn">
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Title</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="title" value="@ViewBag.title">
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Author</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="author" value="@ViewBag.author">
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Genre</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="genre" value="@ViewBag.genre">
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Price</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="price" value="@ViewBag.price">
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Type</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="type" value="@ViewBag.type">
+        </div>
+    </div>
+    <div class="row mb-3">
+
+        <div class="offset-sm-3 col-sm-3 d-grid">
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+
+        <div class=" col-sm-3 d-grid">
+            <a class="btn btn-danger" href="/Admin/Customer" role="button">Cancel</a>
+        </div>
+    </div>
+
+
+</form>

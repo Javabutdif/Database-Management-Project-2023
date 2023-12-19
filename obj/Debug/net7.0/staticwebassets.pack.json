@@ -1,0 +1,489 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Website_Database_New.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Website_Database_New.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\1.jpg",
+      "PackagePath": "staticwebassets\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\B1.jpg",
+      "PackagePath": "staticwebassets\\B1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\D1.jpg",
+      "PackagePath": "staticwebassets\\D1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\H1.jpg",
+      "PackagePath": "staticwebassets\\H1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\S1.jpg",
+      "PackagePath": "staticwebassets\\S1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\arrow-left-circle-fill.svg",
+      "PackagePath": "staticwebassets\\arrow-left-circle-fill.svg"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\bg1.jpg",
+      "PackagePath": "staticwebassets\\bg1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\bg2.jpg",
+      "PackagePath": "staticwebassets\\bg2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\css\\dataTables.bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\dataTables.bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\css\\dataTables.bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\dataTables.bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\css\\dataTables.bootstrap4.css",
+      "PackagePath": "staticwebassets\\css\\dataTables.bootstrap4.css"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\css\\dataTables.bootstrap4.min.css",
+      "PackagePath": "staticwebassets\\css\\dataTables.bootstrap4.min.css"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\css\\dataTables.bootstrap5.css",
+      "PackagePath": "staticwebassets\\css\\dataTables.bootstrap5.css"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\css\\dataTables.bootstrap5.min.css",
+      "PackagePath": "staticwebassets\\css\\dataTables.bootstrap5.min.css"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\css\\dataTables.bulma.css",
+      "PackagePath": "staticwebassets\\css\\dataTables.bulma.css"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\css\\dataTables.bulma.min.css",
+      "PackagePath": "staticwebassets\\css\\dataTables.bulma.min.css"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\css\\dataTables.dataTables.css",
+      "PackagePath": "staticwebassets\\css\\dataTables.dataTables.css"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\css\\dataTables.dataTables.min.css",
+      "PackagePath": "staticwebassets\\css\\dataTables.dataTables.min.css"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\css\\dataTables.foundation.css",
+      "PackagePath": "staticwebassets\\css\\dataTables.foundation.css"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\css\\dataTables.foundation.min.css",
+      "PackagePath": "staticwebassets\\css\\dataTables.foundation.min.css"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\css\\dataTables.jqueryui.css",
+      "PackagePath": "staticwebassets\\css\\dataTables.jqueryui.css"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\css\\dataTables.jqueryui.min.css",
+      "PackagePath": "staticwebassets\\css\\dataTables.jqueryui.min.css"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\css\\dataTables.semanticui.css",
+      "PackagePath": "staticwebassets\\css\\dataTables.semanticui.css"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\css\\dataTables.semanticui.min.css",
+      "PackagePath": "staticwebassets\\css\\dataTables.semanticui.min.css"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\css\\datatables.css",
+      "PackagePath": "staticwebassets\\css\\datatables.css"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\css\\datatables.min.css",
+      "PackagePath": "staticwebassets\\css\\datatables.min.css"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\css\\jquery.dataTables.css",
+      "PackagePath": "staticwebassets\\css\\jquery.dataTables.css"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\css\\jquery.dataTables.min.css",
+      "PackagePath": "staticwebassets\\css\\jquery.dataTables.min.css"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\fish.jpg",
+      "PackagePath": "staticwebassets\\fish.jpg"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\hutao.jpg",
+      "PackagePath": "staticwebassets\\hutao.jpg"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\images\\sort_asc.png",
+      "PackagePath": "staticwebassets\\images\\sort_asc.png"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\images\\sort_asc_disabled.png",
+      "PackagePath": "staticwebassets\\images\\sort_asc_disabled.png"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\images\\sort_both.png",
+      "PackagePath": "staticwebassets\\images\\sort_both.png"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\images\\sort_desc.png",
+      "PackagePath": "staticwebassets\\images\\sort_desc.png"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\images\\sort_desc_disabled.png",
+      "PackagePath": "staticwebassets\\images\\sort_desc_disabled.png"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\js\\dataTables.bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\dataTables.bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\js\\dataTables.bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\dataTables.bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\js\\dataTables.bootstrap4.js",
+      "PackagePath": "staticwebassets\\js\\dataTables.bootstrap4.js"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\js\\dataTables.bootstrap4.min.js",
+      "PackagePath": "staticwebassets\\js\\dataTables.bootstrap4.min.js"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\js\\dataTables.bootstrap5.js",
+      "PackagePath": "staticwebassets\\js\\dataTables.bootstrap5.js"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\js\\dataTables.bootstrap5.min.js",
+      "PackagePath": "staticwebassets\\js\\dataTables.bootstrap5.min.js"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\js\\dataTables.bulma.js",
+      "PackagePath": "staticwebassets\\js\\dataTables.bulma.js"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\js\\dataTables.bulma.min.js",
+      "PackagePath": "staticwebassets\\js\\dataTables.bulma.min.js"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\js\\dataTables.dataTables.js",
+      "PackagePath": "staticwebassets\\js\\dataTables.dataTables.js"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\js\\dataTables.dataTables.min.js",
+      "PackagePath": "staticwebassets\\js\\dataTables.dataTables.min.js"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\js\\dataTables.foundation.js",
+      "PackagePath": "staticwebassets\\js\\dataTables.foundation.js"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\js\\dataTables.foundation.min.js",
+      "PackagePath": "staticwebassets\\js\\dataTables.foundation.min.js"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\js\\dataTables.jqueryui.js",
+      "PackagePath": "staticwebassets\\js\\dataTables.jqueryui.js"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\js\\dataTables.jqueryui.min.js",
+      "PackagePath": "staticwebassets\\js\\dataTables.jqueryui.min.js"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\js\\dataTables.semanticui.js",
+      "PackagePath": "staticwebassets\\js\\dataTables.semanticui.js"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\js\\dataTables.semanticui.min.js",
+      "PackagePath": "staticwebassets\\js\\dataTables.semanticui.min.js"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\js\\datatables.js",
+      "PackagePath": "staticwebassets\\js\\datatables.js"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\js\\datatables.min.js",
+      "PackagePath": "staticwebassets\\js\\datatables.min.js"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\js\\jquery.dataTables.js",
+      "PackagePath": "staticwebassets\\js\\jquery.dataTables.js"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\js\\jquery.dataTables.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.dataTables.min.js"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\layla.jpg",
+      "PackagePath": "staticwebassets\\layla.jpg"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\james\\Desktop\\Website_Database_New\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Website_Database_New.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Website_Database_New.props",
+      "PackagePath": "build\\Website_Database_New.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Website_Database_New.props",
+      "PackagePath": "buildMultiTargeting\\Website_Database_New.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Website_Database_New.props",
+      "PackagePath": "buildTransitive\\Website_Database_New.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

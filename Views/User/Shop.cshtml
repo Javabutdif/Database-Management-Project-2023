@@ -1,0 +1,90 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model List<ItemData>
+
+<header class="w-100">
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3 w-100  ">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white" asp-area="" asp-controller="" asp-action=""><img src="/1.jpg" style="width:30px; height:30px; border-radius:100%; " />James Book Store</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                <ul class="navbar-nav flex-grow-1">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" asp-area="" asp-controller="Dashboard" asp-action="UserDashboard"   asp-route-id="@ViewBag.id">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" asp-area="" asp-controller="User" asp-action="Shop" asp-route-id="@ViewBag.id">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" asp-area="" asp-controller="User" asp-action="Cart" asp-route-id="@ViewBag.id">Cart</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" asp-area="" asp-controller="User" asp-action="Status" asp-route-id="@ViewBag.id">Status</a>
+                    </li>
+                    <li class="nav-item" style="padding-left:64%">
+                        <a class="nav-link btn btn-outline-danger " style="color:white;" asp-area="" asp-controller="Home" asp-action="Login">Logout</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+
+
+    <div class="text-center text-white">
+        <h3>Shop</h3>
+
+    </div>
+
+
+
+
+
+
+
+
+<body>
+    <div class="text-white">
+
+        <table id="example" class="table table-responsive-xxl table-borderless " style="width:100%; color:white">
+            <thead class="table-dark">
+                <tr>
+                   
+                    <th>Title</th>
+                    <th>Type</th>
+                    <th>Price</th>
+                    <th>Action</th>
+                  
+
+                </tr>
+            </thead>
+
+            <tbody class="text-sm-center align-content-center w-100">
+                
+                @foreach(var items in Model)
+                {
+                    <tr>
+                        <td>@items.item_title</td>
+                        <td>@items.item_type</td>
+                        <td>@items.item_price</td>
+                        <td class="d-inline-flex p-3 gap-2">
+                            <a class="btn btn-secondary btn-sm" asp-controller="User" asp-action="AddCart" asp-route-itemId="@items.item_id" asp-route-id="@ViewBag.id">Add Cart</a>
+                        </td>
+                    </tr>
+                }
+
+                  
+            </tbody>
+        </table>
+
+    </div>
+
+    </body>

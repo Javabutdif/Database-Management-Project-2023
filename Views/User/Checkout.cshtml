@@ -1,0 +1,41 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model List<DisplayObject>
+
+
+<div class="text-white">
+
+    <table id="example" class="table table-dark display compact" style="width:100%">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Type</th>
+                <th>QTY</th>
+                <th>SUB TOTAL</th>
+      
+
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (var items in Model)
+            {
+
+                <tr>
+                    <td>@items.title</td>
+                    <td>@items.type</td>
+                    <td>@items.quantity</td>
+                    <td>@items.total</td>
+                </tr>
+            }
+
+        </tbody>
+    </table>
+
+</div>
+<h1 class="text-white">Total: @ViewBag.total</h1>
+<a class="btn btn-sm btn-primary" asp-controller="User" asp-action="Order" asp-route-id="@ViewBag.id" asp-route-total="@ViewBag.total" asp-route-orders="@Model">Order</a>
+<a class="btn btn-sm btn-danger" asp-controller="User" asp-action="Cart" asp-route-id="@ViewBag.id">Cancel</a>

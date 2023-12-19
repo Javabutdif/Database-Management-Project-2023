@@ -1,0 +1,65 @@
+CREATE TABLE [dbo].[Cart] (
+    [cart_id]      INT  NOT NULL,
+    [date_created] DATE NULL,
+    PRIMARY KEY CLUSTERED ([cart_id] ASC),
+    FOREIGN KEY ([cart_id]) REFERENCES [dbo].[Customers] ([c_id])
+);
+
+CREATE TABLE [dbo].[Customers] (
+    [c_id]       INT            IDENTITY (1, 1) NOT NULL,
+    [c_name]     NVARCHAR (50)  NULL,
+    [c_email]    NVARCHAR (100) NULL,
+    [c_address]  NVARCHAR (100) NULL,
+    [c_status]   NVARCHAR (10)  NULL,
+    [c_password] NVARCHAR (60)  NULL,
+    PRIMARY KEY CLUSTERED ([c_id] ASC)
+);
+
+CREATE TABLE [dbo].[items] (
+    [item_id]     INT             NOT NULL,
+    [item_isbn]   INT             NULL,
+    [item_title]  NVARCHAR (100)  NULL,
+    [item_author] NVARCHAR (100)  NULL,
+    [item_genre]  NVARCHAR (50)   NULL,
+    [item_price]  DECIMAL (10, 2) NULL,
+    [item_type]   NVARCHAR (50)   NULL,
+    PRIMARY KEY CLUSTERED ([item_id] ASC)
+);
+
+CREATE TABLE [dbo].[OrderDetails] (
+    [order_id] INT NOT NULL,
+    [item_id]  INT NOT NULL,
+    [od_qty]   INT NULL,
+    PRIMARY KEY CLUSTERED ([order_id] ASC, [item_id] ASC),
+    FOREIGN KEY ([item_id]) REFERENCES [dbo].[items] ([item_id]) ON DELETE CASCADE
+);
+
+CREATE TABLE [dbo].[Orders] (
+    [order_id]    INT             NOT NULL,
+    [order_date]  DATE            NULL,
+    [order_total] DECIMAL (10, 2) NULL,
+    [order_add]   NVARCHAR (100)  NULL,
+    [c_id]        INT             NULL,
+    PRIMARY KEY CLUSTERED ([order_id] ASC),
+    FOREIGN KEY ([c_id]) REFERENCES [dbo].[Customers] ([c_id])
+);
+
+CREATE TABLE [dbo].[Review] (
+    [review_id]   INT            NOT NULL,
+    [review_rate] INT            NULL,
+    [review_com]  NVARCHAR (200) NULL,
+    [review_date] DATE           NULL,
+    [item.id]     INT            NULL,
+    PRIMARY KEY CLUSTERED ([review_id] ASC),
+    FOREIGN KEY ([item.id]) REFERENCES [dbo].[items] ([item_id])
+);
+
+SET IDENTITY_INSERT [dbo].[Cart_Item] ON
+INSERT INTO [dbo].[Cart_Item] ([cart_item_id], [cart_id], [item_id], [quantity], [total]) VALUES (5, 2, 6, 3, 2100)
+INSERT INTO [dbo].[Cart_Item] ([cart_item_id], [cart_id], [item_id], [quantity], [total]) VALUES (6, 2, 5, 4, 1400)
+INSERT INTO [dbo].[Cart_Item] ([cart_item_id], [cart_id], [item_id], [quantity], [total]) VALUES (7, 2, 8, 5, 1500)
+INSERT INTO [dbo].[Cart_Item] ([cart_item_id], [cart_id], [item_id], [quantity], [total]) VALUES (8, 2, 8, 6, 1800)
+INSERT INTO [dbo].[Cart_Item] ([cart_item_id], [cart_id], [item_id], [quantity], [total]) VALUES (9, 2, 1, 12, 11760)
+INSERT INTO [dbo].[Cart_Item] ([cart_item_id], [cart_id], [item_id], [quantity], [total]) VALUES (10, 3, 1, 2, 1960)
+SET IDENTITY_INSERT [dbo].[Cart_Item] OFF
+

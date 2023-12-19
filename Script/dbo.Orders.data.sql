@@ -1,0 +1,6 @@
+INSERT INTO [dbo].[Orders] ([order_id], [order_date], [order_total], [order_add], [c_id]) VALUES (1, N'2023-06-10', NULL, N'Pardo, Cebu City', 1)
+INSERT INTO [dbo].[Orders] ([order_id], [order_date], [order_total], [order_add], [c_id]) VALUES (2, N'2023-07-10', NULL, N'Talisay City, Cebu', 3)
+INSERT INTO [dbo].[Orders] ([order_id], [order_date], [order_total], [order_add], [c_id]) VALUES (3, N'2023-07-10', NULL, N'Oroquieta City', 2)
+INSERT INTO [dbo].[Orders] ([order_id], [order_date], [order_total], [order_add], [c_id]) VALUES (4, N'2023-08-10', NULL, N'Consolacion, Cebu', 4)
+INSERT INTO [dbo].[Orders] ([order_id], [order_date], [order_total], [order_add], [c_id]) VALUES (5, N'2023-08-10', NULL, N'Lapu-lapu City, Cebu', 5)
+INSERT INTO [dbo].[Orders] ([order_id], [order_date], [order_total], [order_add], [c_id]) VALUES (6, N'2023-08-10', NULL, N'Tanjay, Negros Occ.', 6)

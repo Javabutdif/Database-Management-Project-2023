@@ -1,0 +1,72 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model List<OrderData>
+
+<header class="w-100">
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3 w-100  ">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white" asp-area="" asp-controller="" asp-action=""><img src="/1.jpg" style="width:30px; height:30px; border-radius:100%; " />James Book Store</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                <ul class="navbar-nav flex-grow-1">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" asp-area="" asp-controller="Dashboard" asp-action="UserDashboard" asp-route-id="@ViewBag.id">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" asp-area="" asp-controller="User" asp-action="Shop" asp-route-id="@ViewBag.id">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" asp-area="" asp-controller="User" asp-action="Cart" asp-route-id="@ViewBag.id">Cart</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" asp-area="" asp-controller="User" asp-action="Status" asp-route-id="@ViewBag.id">Status</a>
+                    </li>
+                    <li class="nav-item" style="padding-left:64%">
+                        <a class="nav-link btn btn-outline-danger " style="color:white;" asp-area="" asp-controller="Home" asp-action="Login">Logout</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+
+<body class="text-white">
+
+    <table id="example" class="table table-dark display compact" style="width:100%">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Date</th>
+                <th>Total</th>
+                <th>Address</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.order_id</td>
+                    <td>@item.order_date</td>
+                    <td>@item.order_total</td>
+                    <td>@item.order_add</td>
+                    <td >
+                        ORDERED
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+  
+
+
+</body>
